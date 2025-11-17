@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de um iframe</title>
+    <style>
+        iframe{
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            /*essa configuração do iframe sobresai a configuração do html*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de um iframe</h1>
+    <p>Acessando o Site do
+        <!--Tamanho padrão 300x150 do iframe-->
+        <iframe src="https://www.educacao.pr.gov.br/desvio.html&quot; frameborder="1" height="500" width="500" scrolling = "no">
+        <!--para não rolar o iframe, mas depende do navegador-->
+        <a href="https://www.educacao.pr.gov.br/desvio.html&quot; target="_blank"></a>
+        <!--Quando não é compativel o iframe-->
+        </iframe>
+       
+        para poder programar</p>
+    <!--<p>o site do <iframe src="https://www.google.com.br/&quot; frameborder="0"></iframe> támbem é muito legal</p>
+    alguns sites tem proteção contra iframes-->
+</body>
+</html>
